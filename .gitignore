@@ -1,0 +1,24 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/frontend/chatappui/node_modules
+/frontend/chatappui/.pnp
+/frontend/chatappui.pnp.js
+/frontend/chatappui/package-lock.json
+
+# testing
+/frontend/chatappui/coverage
+
+# production
+/frontend/chatappui/build
+
+# misc
+/frontend/chatappui.DS_Store
+/frontend/chatappui.env.local
+/frontend/chatappui.env.development.local
+/frontend/chatappui.env.test.local
+/frontend/chatappui.env.production.local
+
+/frontend/chatappuinpm-debug.log*
+/frontend/chatappuiyarn-debug.log*
+/frontend/chatappuiyarn-error.log*
